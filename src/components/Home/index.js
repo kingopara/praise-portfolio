@@ -2,15 +2,13 @@ import React from 'react';
 import './home.css';
 import Header from '../Header'
 import Footer from '../Footer'
-// import Navigation from '../Navigation'
-import Projects from '../Projects'
+import Pages from '../Pages/Pages';
 
 function Home() {
     return (
         <div className='home'>
             <Header/>
-            {/* <Navigation/> */}
-            <Projects/>
+            <Pages/>
             <Footer/>
         </div>
     )

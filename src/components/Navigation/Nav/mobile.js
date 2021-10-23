@@ -2,10 +2,10 @@ import React from 'react';
 import './mobile.css';
 import {FaRegWindowClose} from "react-icons/fa" 
 
-function Mobile({ menuOpen, setMenuOpen }) {
+function Mobile({ mobileOpen, setMobileOpen }) {
     return (
         <div className='mobile'>
-            <div onClick={() => setMenuOpen(!menuOpen)}  className='close'>
+            <div onClick={() => setMobileOpen(!mobileOpen)}  className='close'>
                 <FaRegWindowClose/>
             </div>
             <div className='mobile-menu'>
