@@ -19,6 +19,14 @@
     height: 420px;
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
 @media only screen and (max-width: 720px) {
     .about {
         flex-direction: column;

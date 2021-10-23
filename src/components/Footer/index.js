@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer'>
             <div className='footer-div'>
                 <a href="https://github.com/kingopara">
-                    <FaGithub className='footer-icon'/>
+                    <FaGithub style={{ color:'black'}} className='footer-icon'/>
                 </a>
             </div>
             <div className='footer-div'>
