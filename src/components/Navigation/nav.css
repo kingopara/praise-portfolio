@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.m-m {
+    display: none;
+}
+
+.w-m {
+    display: flex;
+}
+
+@media screen and (max-width: 720px) {
+    .w-m {
+        display: none;
+    }
+
+    .m-m {
+        display: flex;
+    }
+}

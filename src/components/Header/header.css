@@ -1,0 +1,21 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 15px;
+    position: relative;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    font-weight: 900;
+    font-size: 40px;
+    /* color: burlywood; */
+}
+
+@media screen and (max-width: 720px) {
+    .head {
+        font-size: 24px;
+    }
+}

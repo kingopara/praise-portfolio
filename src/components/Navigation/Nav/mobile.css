@@ -1,0 +1,41 @@
+.icon {
+    font-size: 10px;
+}
+
+.mobile {
+    height: 100vh;
+    width: 30vw;
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    padding: 18px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 24px;
+    justify-content:flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.page {
+    font-size: 24px;
+    margin: 12px 0px;
+    display: flex;
+}
+
+.page a {
+    text-decoration: none;
+    display:flex;
+}

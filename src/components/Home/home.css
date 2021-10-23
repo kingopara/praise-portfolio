@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:auto;
+    /* background-color: aquamarine; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1024px) {
+    .home {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .home {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .home {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .home {
+        width: 100%
+    }
+}
