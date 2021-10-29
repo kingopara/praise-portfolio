@@ -26,7 +26,7 @@ function Cards({project}) {
                 </div>
                 <p>{project.description}</p>
             </div>
-            <img src={project.image} className='project-img'></img>
+            <img src={project.image} className='project-img' alt="screenshot"></img>
         </div>
     )
 }
