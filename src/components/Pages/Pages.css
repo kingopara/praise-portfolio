@@ -17,6 +17,7 @@
 
 .about-image {
     height: 420px;
+    border-radius: 40%;
 }
 
 .portfolio {

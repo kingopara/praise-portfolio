@@ -3,7 +3,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assets/cover/webdev.jpeg');
+  /* background-image: url('./assets/cover/webdev.jpeg'); */
 }
 
 code {
