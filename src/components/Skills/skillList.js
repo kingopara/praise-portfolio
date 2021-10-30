@@ -2,11 +2,11 @@ import { FaReact, FaJsSquare, FaHtml5, FaCss3, FaNodeJs, FaGit, FaGithub } from 
 
 export const skillList = [
     {
-        type: "MERN-Stack",
+        type: "MERN-STACK",
         list: [
             {
                 name: "HTML",
-                // icon: <FaHtml5/>
+                icon: <FaHtml5/>
             },
             {
                 name: "CSS",
@@ -51,12 +51,7 @@ export const skillList = [
             {
                 name: "NoSQL",
                 icon: ""
-            }
-        ]
-    },
-    {
-        type: "ToolsAndTech",
-        list: [
+            },
             {
                 name: "Git",
                 icon: <FaGit/>

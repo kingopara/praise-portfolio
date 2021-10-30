@@ -3,6 +3,7 @@
     padding-bottom: 36px;
 }
 
+/* about page styling */
 .about {
     padding-bottom: 48px;
     display: flex;
@@ -14,22 +15,86 @@
 .about-text {
     font-size: 24px;
     margin: 16px;
-
+    width: 70%;
 }
 
 .about-image {
-    height: 250px;
+    height: 350px;
     border-radius: 40%;
 }
 
+/* portfolio page styling */
 .portfolio {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
+.project-header {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+/* resume page styling */
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.resume-title {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    margin: 24px 0px;
+    flex-direction: column;
+}
+
+.company {
+    /* display: flex; */
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.company-name {
+    font-weight: 800;
+}
+
+.responsibilities {
+    text-align: left;
+    max-width: 80%;
+    margin-top: -10px;
+}
+
+.dates {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    /* background-color: green; */
+    padding: 6px;
+    margin-right: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* styling contact page */
 
 
+/* media querries */
 @media only screen and (max-width: 720px) {
     .about {
         flex-direction: column-reverse;
@@ -44,5 +109,6 @@
 
     .about-text {
         font-size: 18px;
+        width: 100%;
     }
 }
