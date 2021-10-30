@@ -1,5 +1,5 @@
 import React from 'react';
-// import Skills from '../Skills';
+import Skills from '../Skills';
 import './Pages.css';
 
 
@@ -23,7 +23,7 @@ function About() {
                 </div>
             </div>
             <h3>SKILLS</h3>
-                
+                <Skills/>
         </div>
         
     )
