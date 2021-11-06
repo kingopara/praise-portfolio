@@ -23,6 +23,27 @@
     border-radius: 40%;
 }
 
+.about-skill {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+.about-skills {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* max-width: 80%; */
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    background-color: grey;
+    padding: 6px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
 /* portfolio page styling */
 .portfolio {
     display: flex;
@@ -167,6 +188,11 @@ button[type=submit]:hover {
     .about-text {
         font-size: 18px;
         width: 100%;
+    }
+
+    .about-skills {
+        flex-direction: column;
+        max-width: 100%;
     }
 
     .download-btn {

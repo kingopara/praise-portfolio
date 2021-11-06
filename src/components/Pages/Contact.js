@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import './Pages.css';
 import {validateEmail} from "../../utils/helpers";
+// import emailjs
+import emailjs from "emailjs-com";
 
 function Contact() {
 
@@ -8,6 +10,19 @@ function Contact() {
         const [formState, setFormState] = useState({name: '', email: '', message: ''});
         const [errorMessage, setErrorMessage] = useState('');
         const {name, email, message} = formState;
+
+        // email function
+        function sendEmail(e) {
+            e.preventDefault();
+
+            emailjs.sendForm('gmail', 'template_gmail', e.target, 'user_Wuo6aXhtpZanKq8KjcHir')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset()
+        }
     
         function handleChange(evt) {
             if (evt.target.name === 'email') {
@@ -31,16 +46,16 @@ function Contact() {
         }
 
         // to handle the form submit
-        function handleSubmit(evt) {
-            evt.preventDefault();
+        // function handleSubmit(evt) {
+            // evt.preventDefault();
         // console.log(formState);
-        }
+        // }
 
 
     return (
         <section className="contact-container">
             <h1 className="contact-title">Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" onSubmit={ sendEmail}>
                 <div className="row">
                     <label htmlFor="name" className="col-25">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" required className='white-text col-75'/>
