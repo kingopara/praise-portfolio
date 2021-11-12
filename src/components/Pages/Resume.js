@@ -47,7 +47,7 @@ function Resume() {
                             Provided user authentication with bcrypt and/or JWT and also secure checkout processes using stripeJS
                         </li>
                         <li>
-                            Used Git version control system and Github cloud-based hosting service to manage and keept track of code history and repositories.
+                            Used Git version control system and Github cloud-based hosting service to manage and keep track of code history and repositories.
                         </li>
                     </ul>
                 </div>
