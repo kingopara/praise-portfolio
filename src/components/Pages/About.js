@@ -5,12 +5,12 @@ import './Pages.css';
 
 function About() {
     return (
-        <div>
+        <div className="bg">
             <div className='about'>
                 <div className='about-text'>
                     
                     <p>
-                    Full Stack Web Developer with a background in Petroleum Engineering with acquired knowledge and skills across multiple industries including the Semiconductor, Oil and Gas and safety. 
+                    I'm a Full Stack Web Developer with a background in Petroleum Engineering with acquired knowledge and skills across multiple industries including the Semiconductor, Oil and Gas and safety. 
                     Earned a certificate in Full Stack Web Development from the University of Texas, Austin with proficiency in the MERN Stack.
                     <br/> 
                     Recognized and awarded for critical thinking and time management after turning down the time of a tool into maximizing product output to meet customer requirements and also Awarded excellence in execution for contributing to the completion of the Enugu-Makurdi Pipeline project.
@@ -24,7 +24,7 @@ function About() {
                 </div>
                 
                 <div className='about-img'>
-                    <img src={require('../../assets/cover/pic2.jpg').default} className='about-image' alt="profile-img"/>
+                    <img src={require('../../assets/cover/B&WPIC.jpg').default} className='about-image' alt="profile-img"/>
                 </div>
             </div>
             <h3>SKILLS</h3>
@@ -35,6 +35,12 @@ function About() {
                     </div>
                     <div className="about-skills">
                         CSS
+                    </div>
+                    <div className="about-skills">
+                        Bootstrap
+                    </div>
+                    <div className="about-skills">
+                        jQuery
                     </div>
                     <div className="about-skills">
                         JavaScript
@@ -53,6 +59,15 @@ function About() {
                     </div>
                     <div className="about-skills">
                         Handlebars
+                    </div>
+                    <div className="about-skills">
+                        Web APIs
+                    </div>
+                    <div className="about-skills">
+                        Third-Party APIs
+                    </div>
+                    <div className="about-skills">
+                        Server-Side APIs
                     </div>
                     <div className="about-skills">
                         RESTful API
@@ -89,6 +104,15 @@ function About() {
                     </div>
                     <div className="about-skills">
                         Auth
+                    </div>
+                    <div className="about-skills">
+                        ORM
+                    </div>
+                    <div className="about-skills">
+                        MVC
+                    </div>
+                    <div className="about-skills">
+                        State
                     </div>
                 </div>
         </div>    

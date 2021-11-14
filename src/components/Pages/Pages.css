@@ -4,12 +4,17 @@
 }
 
 /* about page styling */
+/* .bg { */
+    /* background-color: #ddbea9; */
+/* } */
+
 .about {
     padding-bottom: 48px;
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .about-text {
@@ -28,6 +33,7 @@
     /* flex-direction: row; */
     width: 100%;
     flex-wrap: wrap;
+    /* background-color: #ddbea9; */
 }
 .about-skills {
     display: flex;
@@ -37,11 +43,13 @@
     justify-content: space-between;
     align-items: center;
     width: max-content;
-    background-color: grey;
+    /* background-color: rgba(192, 192, 192, 1); */
     padding: 6px;
     margin: 10px 10px;
     border-radius: 4px;
     font-size: 16px;
+    background-color: #9c6644;
+    color: white;
 }
 
 /* portfolio page styling */
@@ -49,6 +57,8 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color:#d3d3d3;
+    /* opacity: 0.7; */
 }
 
 .project-header {
@@ -61,6 +71,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    /* background-color: #a5a58d; */
 }
 
 .resume-title {
@@ -105,7 +116,8 @@
     justify-content: center;
     align-items: center;
     width: max-content;
-    /* background-color: green; */
+    /* background-color: rgba(192, 192, 192, 1); */
+    background-color: #7f5539;
     padding: 6px;
     margin-right: 6px;
     border-radius: 4px;
@@ -114,8 +126,13 @@
 
 .download-btn a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
+
+.download-btn:hover {
+    background-color: #9c6644;
+}
+
 /* styling contact page */
 .contact-title {
     font-size: 42px;
@@ -124,8 +141,9 @@
 
 .contact-container {
     border-radius: 5px;
-    /* background-color: #f2f2f2; */
+    background-color: #e5e5e5;
     padding: 20px;
+    
 }
 
 .col-25 {
@@ -158,7 +176,7 @@ label {
 }
 
 button[type=submit] {
-    background-color: #04AA6D;
+    background-color: #7f5539;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -168,7 +186,7 @@ button[type=submit] {
 }
   
 button[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #9c6644;
 }
 
 
@@ -200,7 +218,7 @@ button[type=submit]:hover {
     }
 
     .col-25, .col-75, button[type=submit] {
-        width: 100%;
+        width: 90%;
         margin-top: 0;
     }
 }

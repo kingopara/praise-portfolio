@@ -16,15 +16,15 @@ function Footer() {
                 </a>
             </div>
             <div className='footer-div'>
-                <a href="https://www.stackoverflow.com">
+                <a href="https://stackoverflow.com/users/15314643/praiseopara">
                     <FaStackOverflow style={{ color:'#f48024'}} className='footer-icon'/>
                 </a>
             </div>
-            <div className='footer-div'>
+            {/* <div className='footer-div'>
                 <a href="https://www.youtube.com">
                     <FaYoutube style={{ color:'#ff0000'}} className='footer-icon'/>
                 </a>
-            </div>
+            </div> */}
         </div>
     )
 }

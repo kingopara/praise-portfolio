@@ -1,12 +1,12 @@
 import React from 'react';
 import './mobile.css';
-import {FaRegWindowClose} from "react-icons/fa" 
+import { FaBars } from "react-icons/fa"; 
 
 function Mobile({ mobileOpen, setMobileOpen }) {
     return (
         <div className='mobile'>
             <div onClick={() => setMobileOpen(!mobileOpen)}  className='close'>
-                <FaRegWindowClose/>
+                <FaBars/>
             </div>
             <div className='mobile-menu'>
                 <div className='page'>

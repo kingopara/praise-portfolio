@@ -2,7 +2,7 @@ export const Projects = [
     {
         id:1,
         title: "Deep-Thoughts",
-        description: "a social media app",
+        description: "A social media app which enables users to signup and log into personal accounts, express their thoughts and concerns, add friends and also react to friends thoughts",
         deployedApp: "https://deep-thoughts-app-21.herokuapp.com/",
         github: "https://github.com/kingopara/deep-thoughts",
         image: require("../../assets/Projects/deep-thoughts.png").default
@@ -18,7 +18,7 @@ export const Projects = [
     {
         id:1,
         title: "Pizza-hunt",
-        description: "a social media app",
+        description: "Pizza hunt is a web application that enables users to create their own pizzas from a selection of toppings and also custom toppings made by them.",
         deployedApp: "https://pizza-hunt-app21.herokuapp.com/",
         github: "https://github.com/kingopara/pizza-hut",
         image: require("../../assets/Projects/pizza-hunt.png").default
@@ -42,7 +42,7 @@ export const Projects = [
     {
         id:1,
         title: "Activity Finder",
-        description: "a social media app",
+        description: "As a user looking for pubs in your local area, pub finder helps you search for local pubs where you could get some relaxation, meet people and have fun with your drinks",
         deployedApp: "https://kingopara.github.io/activity-finder/",
         github: "https://github.com/kingopara/activity-finder",
         image: require("../../assets/Projects/projectPic1.png").default

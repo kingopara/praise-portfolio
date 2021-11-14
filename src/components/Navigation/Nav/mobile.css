@@ -7,6 +7,8 @@
     padding: 18px 15px;
     display: flex;
     flex-direction: column;
+    background-color:#e5e5e5;
+    background-image: url('../../../assets/backgroud/back5.jpg');
 }
 
 .close {
@@ -34,4 +36,5 @@
 .page a {
     text-decoration: none;
     display:flex;
+    color: black;
 }

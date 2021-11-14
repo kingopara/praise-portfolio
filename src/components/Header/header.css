@@ -4,7 +4,10 @@
     flex: 1;
     padding: 15px;
     position: relative;
+    /* position: fixed; */
     align-items: center;
+    /* background-color: rgba(192, 192, 192, 1); */
+    /* background-color: #cb997e; */
 }
 
 .head {
