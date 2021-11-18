@@ -13,13 +13,8 @@ function About() {
                     I'm a Full Stack Web Developer with a background in Petroleum Engineering with acquired knowledge and skills across multiple industries including the Semiconductor, Oil and Gas and safety. 
                     Earned a certificate in Full Stack Web Development from the University of Texas, Austin with proficiency in the MERN Stack.
                     <br/> 
-                    Recognized and awarded for critical thinking and time management after turning down the time of a tool into maximizing product output to meet customer requirements and also Awarded excellence in execution for contributing to the completion of the Enugu-Makurdi Pipeline project.
-                    <br/>
                     Always had a passion for creativity and problem solving and being a full stack web developer brings all that to life. 
                     My effective communication with my goal oriented and critical thinking nature combined with my acquired knowledge and skills, excited me to build better experiences on the web.
-                    <br/>
-                    I see Web-development together with Engineering as the closiest thing to magic and thats what caught my attention and interest.
-                    Work with me lets make some MAGIC!
                     </p>
                 </div>
                 
