@@ -16,7 +16,7 @@ function Resume() {
             <Skills/>
 
             <div className="download-btn">
-                <a download href={require('../../assets/fullStack.pdf').default}>
+                <a download href={require('../../assets/fullStack1.pdf').default}>
                     <FaDownload/> Download My Resume
                 </a>
             </div>
