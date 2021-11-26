@@ -10,19 +10,23 @@ function Resume() {
             <h1 className="resume-title">
                 Resume
             </h1>
-            <div className="download-btn">
-                        <a download href={require('../../assets/resume1.pdf').default}>
-                           <FaDownload/> Download My Resume
-                        </a>
-                    </div>
+            
             <h3>PROFICIENCIES</h3>
+            
             <Skills/>
+
+            <div className="download-btn">
+                <a download href={require('../../assets/FSWDresume.pdf').default}>
+                    <FaDownload/> Download My Resume
+                </a>
+            </div>
+
             <h3>Experience</h3>
             <div className="experience">
                 <div className="company">
                     <label className="company-name">University of Texas,Austin</label>
                     <h4>
-                        Full Stack Web Developer - Student 
+                        Full Stack Web Developer Bootcamp
                         <br/>
                         <h5 className="dates">
                             Apr 2021 - Oct 2021
@@ -41,7 +45,7 @@ function Resume() {
                             Built the Backend of web applications using NodeJS, ExpressJS and MongoDB
                         </li>
                         <li>
-                            Created databases for web applications to store customer data for clients using SQL and NoSQL
+                            Created databases for web applications to store customer data for clients using MySQL and NoSQL
                         </li>
                         <li>
                             Provided user authentication with bcrypt and/or JWT and also secure checkout processes using stripeJS
@@ -51,7 +55,7 @@ function Resume() {
                         </li>
                     </ul>
                 </div>
-                <div className="company">
+                {/* <div className="company">
                     <label className="company-name">Toppan Photomask Round Rock</label>
                     <h4>
                         Process Technician II
@@ -78,7 +82,7 @@ function Resume() {
                             Troubleshooting operations and tools for more effective operation.
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )

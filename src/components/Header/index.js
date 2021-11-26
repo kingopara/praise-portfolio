@@ -6,7 +6,9 @@ function Header() {
     return (
         <div className='header'>
             <div className='head'>
-                Praise Opara
+                <a href="/">
+                    Praise Opara
+                </a>
             </div>
             <div>
                 <Navigation/>

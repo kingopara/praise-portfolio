@@ -2,6 +2,7 @@ nav {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    /* position: fixed; */
 }
 
 .icon {

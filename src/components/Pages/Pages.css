@@ -4,9 +4,14 @@
 }
 
 /* about page styling */
-/* .bg { */
-    /* background-color: #ddbea9; */
-/* } */
+.bg {
+    /* height: 85vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* object-fit: contain; */
+}
 
 .about {
     padding-bottom: 48px;
@@ -14,6 +19,8 @@
     /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    
     
 }
 
@@ -57,8 +64,9 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color:#d3d3d3;
+    /* background-color:#d3d3d3; */
     /* opacity: 0.7; */
+    width: 100%;
 }
 
 .project-header {
@@ -71,7 +79,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* background-color: #a5a58d; */
+    /* background-color: #d3d3d3; */
 }
 
 .resume-title {
@@ -134,27 +142,146 @@
 }
 
 /* styling contact page */
-.contact-title {
+
+/* .contact {
+    background-color: #e5e5e5;
+} */
+.contact-wrapper {
+    max-width: 700px;
+    margin: 50px auto;
+    background: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* color: blue; */
+    margin-bottom: 50px;
+}
+
+.inner-address p {
+    font-size: 20px;
+}
+
+/* .inner-address a:hover {
+    background-color: white;
+} */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact-form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* color: brown; */
+    text-align: center;
+}
+
+.contact-form-input {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-form-message {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-input > input {
+    width: 260px;
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+}
+
+.form-message > textarea {
+    width: 95%;
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    height: 80px;
+    border-radius: 25px;
+}
+
+.form-button {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    /* color: #fff; */
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 25px;
+}
+
+.form-button:hover {
+    background: #fff;
+    /* color: green; */
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+::-moz-input-placeholder {
+    color:  black;
+}
+
+::-ms-input-placeholder {
+    color:  black;
+}
+
+
+/* previous setup */
+
+/* .contact-title {
     font-size: 42px;
     font-weight: 800;
 }
 
 .contact-container {
-    border-radius: 5px;
-    background-color: #e5e5e5;
-    padding: 20px;
+    border-radius: 5px; */
+    /* background-color: #e5e5e5; */
+    /* padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    flex-wrap: wrap;
+    
+} */
+
+/* .contact-form {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
     
 }
 
-.col-25 {
+.col-25 { */
     /* float: left; */
-    width: 25%;
+    /* width: 25%;
     margin-top: 6px;
-}
+} */
 
-.col-75 {
+/* .col-75 { */
     /* float: left; */
-    width: 75%;
+    /* width: 50%;
     margin-top: 6px;
 }
 
@@ -181,13 +308,13 @@ button[type=submit] {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    float: left;
-}
+    cursor: pointer; */
+    /* float: left; */
+/* }
   
 button[type=submit]:hover {
     background-color: #9c6644;
-}
+} */
 
 
 /* media querries */
@@ -220,5 +347,26 @@ button[type=submit]:hover {
     .col-25, .col-75, button[type=submit] {
         width: 90%;
         margin-top: 0;
+    }
+
+    .contact-form-input {
+        flex-direction: column;
+    }
+
+    .form-input:first-child > input {
+        margin-bottom: 20px;
+    }
+
+    .contact-form .form-input > input {
+        width: 95%;
+    }
+
+    .address {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-address {
+        margin-bottom: 10px;
     }
 }

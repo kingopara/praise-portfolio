@@ -42,6 +42,10 @@
     font-size: 16px;
 }
 
+.link-btn:hover {
+    background-color: #9c6644;
+}
+
 @media only screen and (max-width: 720px) {
     .cards {
         flex-direction: column;
