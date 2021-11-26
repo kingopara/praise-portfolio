@@ -10,7 +10,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 [Link to deployed site]()
 
-[Github Repo]()
+[Github Repo](https://github.com/kingopara/praise-portfolio)
 
 ## Table of content
 * [Description](#description)
@@ -23,7 +23,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 * [Contributing](#contributing)
 
 ## Preview
-![Preview]()
+![Preview](src/assets/cover/portfolio.png)
 
 ## Project Requirements
 
