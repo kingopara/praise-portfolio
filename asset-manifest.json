@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/praise-portfolio/static/css/main.3dd4d63c.chunk.css",
-    "main.js": "/praise-portfolio/static/js/main.371ce51c.chunk.js",
-    "main.js.map": "/praise-portfolio/static/js/main.371ce51c.chunk.js.map",
+    "main.css": "/praise-portfolio/static/css/main.3673cbb5.chunk.css",
+    "main.js": "/praise-portfolio/static/js/main.db373031.chunk.js",
+    "main.js.map": "/praise-portfolio/static/js/main.db373031.chunk.js.map",
     "runtime-main.js": "/praise-portfolio/static/js/runtime-main.cb9750c5.js",
     "runtime-main.js.map": "/praise-portfolio/static/js/runtime-main.cb9750c5.js.map",
     "static/js/2.11cca4f4.chunk.js": "/praise-portfolio/static/js/2.11cca4f4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8ead6594.chunk.js": "/praise-portfolio/static/js/3.8ead6594.chunk.js",
     "static/js/3.8ead6594.chunk.js.map": "/praise-portfolio/static/js/3.8ead6594.chunk.js.map",
     "index.html": "/praise-portfolio/index.html",
-    "static/css/main.3dd4d63c.chunk.css.map": "/praise-portfolio/static/css/main.3dd4d63c.chunk.css.map",
+    "static/css/main.3673cbb5.chunk.css.map": "/praise-portfolio/static/css/main.3673cbb5.chunk.css.map",
     "static/js/2.11cca4f4.chunk.js.LICENSE.txt": "/praise-portfolio/static/js/2.11cca4f4.chunk.js.LICENSE.txt",
     "static/media/B&WPIC.jpg": "/praise-portfolio/static/media/B&WPIC.4f78be8f.jpg",
     "static/media/mobile.css": "/praise-portfolio/static/media/back5.3e00ff89.jpg",
@@ -19,13 +19,13 @@
     "static/media/fullStack1.pdf": "/praise-portfolio/static/media/fullStack1.5aedbcfe.pdf",
     "static/media/noteTk2.png": "/praise-portfolio/static/media/noteTk2.8aabb365.png",
     "static/media/pizza-hunt.png": "/praise-portfolio/static/media/pizza-hunt.e9b7d682.png",
-    "static/media/projectPic1.png": "/praise-portfolio/static/media/projectPic1.d6468e21.png",
-    "static/media/techblog.png": "/praise-portfolio/static/media/techblog.b8246bc5.png"
+    "static/media/preview copy 2.png": "/praise-portfolio/static/media/preview copy 2.0408149b.png",
+    "static/media/preview copy.png": "/praise-portfolio/static/media/preview copy.61a41b02.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cb9750c5.js",
     "static/js/2.11cca4f4.chunk.js",
-    "static/css/main.3dd4d63c.chunk.css",
-    "static/js/main.371ce51c.chunk.js"
+    "static/css/main.3673cbb5.chunk.css",
+    "static/js/main.db373031.chunk.js"
   ]
 }
