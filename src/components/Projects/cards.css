@@ -30,6 +30,29 @@
     text-decoration: none;
 }
 
+.tech {
+    display: flex;
+    margin: 10px;
+}
+
+.tech-used {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.project-tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 6px;
+    background-color: #7f5539;
+    margin-right: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
 .link-btn {
     display: flex;
     justify-content: center;
