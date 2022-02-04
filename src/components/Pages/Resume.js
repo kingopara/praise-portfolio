@@ -24,34 +24,27 @@ function Resume() {
             <h3>Experience</h3>
             <div className="experience">
                 <div className="company">
-                    <label className="company-name">University of Texas,Austin</label>
-                    <h4>
-                        Full Stack Web Developer Bootcamp
-                        <br/>
-                        <h5 className="dates">
-                            Apr 2021 - Oct 2021
-                        </h5>
-                    </h4>
+                    <label className="company-name">Full Stack Web Developer</label>
                     
-                    <h4 className="responsibilities">Responsibilities</h4>
+                    {/* <h4 className="responsibilities"></h4> */}
                     <ul>
                         <li>
-                            Developed dynamic full stack web applications, websites and installable progressive web applications.
+                            Develope dynamic full stack web applications, websites and installable progressive web applications.
                         </li>
                         <li>
-                            Integrated a Frontend using ReactJS to a fully functional Backend application. 
+                            Integrate Frontend using ReactJS to a fully functional Backend application. 
                         </li>
                         <li>
-                            Built the Backend of web applications using NodeJS, ExpressJS and MongoDB
+                            Build the Backend of web applications using NodeJS, ExpressJS and MongoDB
                         </li>
                         <li>
-                            Created databases for web applications to store customer data for clients using MySQL and NoSQL
+                            Create databases for web applications to store customer data for clients using MySQL and NoSQL
                         </li>
                         <li>
-                            Provided user authentication with bcrypt and/or JWT and also secure checkout processes using stripeJS
+                            Provide user authentication with bcrypt and/or JWT and also secure checkout processes using stripeJS
                         </li>
                         <li>
-                            Used Git version control system and Github cloud-based hosting service to manage and keep track of code history and repositories.
+                            Use Git version control system and Github cloud-based hosting service to manage and keep track of code history and repositories.
                         </li>
                     </ul>
                 </div>
